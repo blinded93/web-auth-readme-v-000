@@ -1,0 +1,56 @@
+=> [32m#<Faraday::Response:0x007f2b98857328[0m
+ @env[32m=[0m
+  [32m#<struct Faraday::Env[0m
+   method[32m=[0m[33m:get[0m,
+   body[32m=[0m
+    [31m[1;31m"[0m[31m{[1;35m\"[0m[31mmeta[1;35m\"[0m[31m:{[1;35m\"[0m[31mcode[1;35m\"[0m[31m:200,[1;35m\"[0m[31mrequestId[1;35m\"[0m[31m:[1;35m\"[0m[31m5afcd33b9fb6b746c7b9ddc8[1;35m\"[0m[31m},[1;35m\"[0m[31mnotifications[1;35m\"[0m[31m:[{[1;35m\"[0m[31mtype[1;35m\"[0m[31m:[1;35m\"[0m[31mnotificationTray[1;35m\"[0m[31m,[1;35m\"[0m[31mitem[1;35m\"[0m[31m:{[1;35m\"[0m[31munreadCount[1;35m\"[0m[31m:0}}],[1;35m\"[0m[31mresponse[1;35m\"[0m[31m:{[1;35m\"[0m[31mfriends[1;35m\"[0m[31m:{[1;35m\"[0m[31mcount[1;35m\"[0m[31m:0,[1;35m\"[0m[31mitems[1;35m\"[0m[31m:[]},[1;35m\"[0m[31mchecksum[1;35m\"[0m[31m:[1;35m\"[0m[31m07de1832f293e704795285aab6a48e7e0dcdd3b8[1;35m\"[0m[31m}}[1;31m"[0m[31m[0m,
+   url[32m=[0m
+    [32m#<URI::HTTPS https://api.foursquare.com/v2/users/self/friends?oauth_token=AYV1OLFAUHN5C4RHF5JWXYGZ4AJNU20EZISBEPUNIZLW1AQR&v=20160201>[0m,
+   request[32m=[0m
+    [32m#<struct Faraday::RequestOptions[0m
+     params_encoder[32m=[0m[1;36mnil[0m,
+     proxy[32m=[0m[1;36mnil[0m,
+     bind[32m=[0m[1;36mnil[0m,
+     timeout[32m=[0m[1;36mnil[0m,
+     open_timeout[32m=[0m[1;36mnil[0m,
+     boundary[32m=[0m[1;36mnil[0m,
+     oauth[32m=[0m[1;36mnil[0m[32m>[0m,
+   request_headers[32m=[0m{[31m[1;31m"[0m[31mUser-Agent[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mFaraday v0.9.2[1;31m"[0m[31m[0m},
+   ssl[32m=[0m
+    [32m#<struct Faraday::SSLOptions[0m
+     verify[32m=[0m[1;36mtrue[0m,
+     ca_file[32m=[0m[1;36mnil[0m,
+     ca_path[32m=[0m[1;36mnil[0m,
+     verify_mode[32m=[0m[1;36mnil[0m,
+     cert_store[32m=[0m[1;36mnil[0m,
+     client_cert[32m=[0m[1;36mnil[0m,
+     client_key[32m=[0m[1;36mnil[0m,
+     certificate[32m=[0m[1;36mnil[0m,
+     private_key[32m=[0m[1;36mnil[0m,
+     verify_depth[32m=[0m[1;36mnil[0m,
+     version[32m=[0m[1;36mnil[0m[32m>[0m,
+   parallel_manager[32m=[0m[1;36mnil[0m,
+   params[32m=[0m[1;36mnil[0m,
+   response[32m=[0m[32m#<Faraday::Response:0x007f2b98857328[0m ...[32m>[0m,
+   response_headers[32m=[0m
+    {[31m[1;31m"[0m[31mserver[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mnginx[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mcontent-type[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mapplication/json; charset=utf-8[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maccess-control-allow-origin[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m*[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mtracer-time[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m19[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mx-ratelimit-path[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m/v2/users/X/friends[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mx-ratelimit-limit[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m0[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mx-ratelimit-remaining[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m0[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mstrict-transport-security[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mmax-age=31536000[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mx-rate-limit-key[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m24.19.2.93[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mx-ex[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mfastly_cdn[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mcontent-length[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m231[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maccept-ranges[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mbytes[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mdate[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mThu, 17 May 2018 00:56:27 GMT[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mvia[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m1.1 varnish[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mconnection[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mclose[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mx-served-by[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mcache-sea1020-SEA[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mx-cache[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mMISS[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mx-cache-hits[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m0[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mvary[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mAccept-Encoding,User-Agent,Accept-Language[1;31m"[0m[31m[0m},
+   status[32m=[0m[1;34m200[0m[32m>[0m,
+ @on_complete_callbacks[32m=[0m[][32m>[0m
